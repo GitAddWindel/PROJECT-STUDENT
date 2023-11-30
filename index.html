@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laboratory Excercise 1</title>
+    
+</head>
+ 
+<style>
+ 
+body {
+ 
+height: 2000px;
+ 
+ }
+ 
+.first-container, .second-container {
+ 
+display: inline-block;
+vertical-align: top;
+margin: 10px;
+border-style: solid;
+border-width: 1px;
+padding: 10px;
+text-align: center;
+height: 130px;
+background-color: #555;
+width: 40%;
+position: relative;
+border-color: transparent;
+ 
+ 
+   }
+ 
+.first-container { z-index: 5; }
+ 
+.second-container {
+ 
+margin-left: 40px;
+margin-top: -110px;
+position: relative;
+z-index: 1;
+  }
+ 
+.heading-one, .heading-two, h1 {
+ 
+transform: rotateZ(-20deg);
+text-shadow: -1px 0 black, 0 4px lightyellow, 1px 0 lightyellow, 0 -1px lightyellow;
+color: #fff;
+ 
+ 
+  }
+ 
+.heading-to-top { margin-top: -32px; margin-left: 30px; }
+.heading-two { margin-top: 50px; }
+ 
+.main-container {
+  border-style: double;
+  border-width: solid;
+  border: 2px solid #000;
+  margin-top: 70px;
+  width: 463px;
+  margin-left: 1px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 150px; 
+}
+ 
+.span-text-change {
+  font-size: 100px;
+  font-family: serif;
+}
+ 
+.text-top {
+  position: relative;
+  margin-top: -115px;
+  margin-left: 70px;
+}
+ 
+.main-container-x1 {
+  border-style: double;
+  border-width: solid;
+  border: 2px solid black;
+  margin-top: 10px;
+  width: 463px;
+  margin-left: 1px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  position: absolute;
+}
+ 
+.span-text-change-x1 {
+  font-size: 100px;
+  font-family: serif;
+}
+ 
+.text-top-x1 {
+  position: relative;
+  margin-top: -115px;
+  margin-left: 70px;
+  margin-right: auto;
+}
+ 
+/* Container 3 */
+.main-container-x2 {
+  border-style: double;
+  border: 2px solid #000;
+  margin-top: 180px;
+  width: 463px;
+  margin-left: 1px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 130px; 
+}
+ 
+.span-text-change-x2 {
+  font-size: 100px;
+  font-family: serif;
+}
+ 
+.text-top-x2 {
+  position: relative;
+  margin-top: -115px;
+  margin-left: 70px;
+}
+ 
+ 
+.main-container-x4 {
+  border-style: double;
+  border: 2px solid #000;
+  margin-top: 10px;
+  width: 463px;
+  margin-left: 1px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 130px; 
+ 
+ 
+}
+ 
+.main-container-x5 {
+  border-style: double;
+  border: 2px solid #000;
+  margin-top: 10px;
+  width: 463px;
+  margin-left: 1px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 130px; 
+ 
+ 
+}
+ 
+ 
+ 
+/* Laptop size only. I don't have extra monitors to resize and redesign this in 19 inches, 24 inches screen sizes */
+@media (min-width: 769px) and (max-width: 1454px) {
+  .first-container, .second-container {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    text-align: center;
+    height: 130px;
+    background-color: #555;
+    width: 10%; 
+    position: relative;
+    border-color: transparent;
+  }
+ 
+  .first-container {
+    z-index: 5;
+  }
+ 
+ 
+.second-container {
+  margin-left: 40px;
+  margin-top: -110px;
+  position: absolute;
+  z-index: 1;
+}
+ 
+ 
+  .heading-one, .heading-two, h1 {
+    transform: rotateZ(-20deg);
+    text-shadow: -1px 0 black, 0 4px lightyellow, 1px 0 lightyellow, 0 -1px lightyellow;
+    color: #fff;
+  }
+ 
+  .margin-top-container {
+    margin-top: 100px;
+  }
+}
+ 
+</style>
+<body>
+ 
+<div class="margin-top-container">
+<div class="head-container">
+<div class="first-container">
+<h1 class="heading-one">LOREM</h1>
+<h1 class="heading-to-top">IPSUM</h1>
+ </div>
+</div>
+ 
+ 
+<div class="second-container">
+<h1 class="heading-two">LOREM</h1>
+<h1 class="heading-to-top">IPSUM</h1>
+</div>
+ 
+ 
+<main class="main-container">
+ 
+<p><span class="span-text-change">L</span>
+<div class="text-top">
+ orem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</main>
+ 
+<main class="main-container-x1">
+ 
+<p><span class="span-text-change-x1">S</span>
+<div class="text-top-x1">
+ laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quass architecto beate vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
+  </div>
+</main>
+ 
+ 
+  <main class="main-container-x2">
+    <p><span class="span-text-change-x2">B</span>
+      <div class="text-top-x2">
+        ut I must explain to you how all this mistaken idea of denouncing pleasure and praissing pain was born and I will give you a complete account of the system. and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+      </div>
+    </p>
+  </main>
+ 
+  <main class="main-container-x4">
+    <p><span class="text-change-x4" style="font-size: 100px;font-family: serif;">A</span>
+      <div class="text-top-x4" style="position: relative; margin-top: -115px; margin-left: 70px;">
+        t vero eos et accusamus et susto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati tupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est
+      </div>
+    </p>
+  </main>
+ 
+  <main class="main-container-x5">
+    <p><span class="text-change-x5" style="font-size: 100px;font-family: serif;">O</span>
+      <div class="text-top-x5" style="position: relative; margin-top: -115px; margin-left: 70px;">
+        n the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of  the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame
+      </div>
+    </p>
+  </main>
+ 
+ 
+</body>
+</html>
